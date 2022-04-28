@@ -1,4 +1,4 @@
-ori = imread('C:\Users\afifa\Desktop\Data\Exp_1\1\3.jpg');
+ori = imread("photos_filepath");
 gray = rgb2gray(ori);
 filter = edge(gray, 'sobel')
 
